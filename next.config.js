@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  esModule: true,
+    fileExtensions: ["jpg", "jpeg", "png", "gif"],
 }
 
-module.exports = nextConfig
+module.exports =nextConfig
