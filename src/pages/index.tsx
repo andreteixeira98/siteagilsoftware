@@ -30,6 +30,7 @@ const Home: NextPage = () => {
           className='orcamento_link'
           href='https://wa.me/5585984670723'
           target='_blank'
+          rel="noreferrer"
         > 
           Solicitar Orçamento
         </a>
